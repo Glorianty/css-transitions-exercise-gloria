@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transition-couleur {
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    background-color: rgb(183, 125, 234);  
+}
+.transition-couleur:hover {
+    background-color: rgb(46, 18, 72);
+}
+
+.transition-rotation{
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    transform: rotate(0deg);
+    transition: transform 0.5 ease;
+    background-color: rgb(129, 224, 235);
+}
+
+.transition-rotation:hover{
+    transform: rotate(45deg);
+    background-color: pink;
+    
+}
+
+.transition-taille{
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    background-color: rgb(232, 210, 129);
+    
+}
+
+.transition-taille:hover{
+transform: scale(0.7);
+}
+
+.transition-déplacer{
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    background-color: rgb(135, 230, 131);
+}
+
+.transition-déplacer:hover{
+transform: translate(100px, 50px);
+}
+
+.transition-incline{
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    background-color: rgb(229, 140, 243);
+    margin-top: 20px;
+}
+
+.transition-incline:hover{
+transform: skew(30deg, 20deg);
+}
+
+.transition-générale{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(237, 111, 111);
+    margin-top: 20px;
+}
+
+.transition-générale:hover{
+    transform: matrix(0.1, 1, -0.3, 1, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
